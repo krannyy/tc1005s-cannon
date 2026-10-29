@@ -3,13 +3,16 @@
 Exercises
 
 1. Keep score by counting target hits.
-2. Vary the effect of gravity.
-3. Apply gravity to the targets.
+2. Vary the effect of gravity3. Apply gravity to the targets.
 4. Change the speed of the ball.
 """
 
 from random import randrange
-from turtle import *
+from turtle import (
+    clear, goto, dot, update,
+    ontimer, setup, hideturtle,
+    up, tracer, onscreenclick, done,
+)
 
 from freegames import vector
 
