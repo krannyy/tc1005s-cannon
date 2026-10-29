@@ -73,6 +73,7 @@ def move():
 
     draw()
 
+    # Reposition targets that leave the window so the game never ends.
     for target in targets:
         if not inside(target):
             target.x = 200
